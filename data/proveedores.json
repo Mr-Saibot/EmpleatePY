@@ -1,0 +1,410 @@
+[
+    {
+        "id": 1,
+        "nombre": "Juan Pérez",
+        "categoria": "Plomero",
+        "calificacion": 4.9,
+        "opiniones": 126,
+        "ciudad": "Asunción",
+        "experiencia": "12 años",
+        "telefono": "+595981111111",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=JuanPerez",
+        "descripcion": "Especialista en reparaciones sanitarias, fugas de agua e instalaciones residenciales.",
+        "servicios": [
+            "Reparación de fugas",
+            "Instalaciones sanitarias",
+            "Mantenimiento"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Carlos Benítez",
+        "categoria": "Plomero",
+        "calificacion": 4.7,
+        "opiniones": 89,
+        "ciudad": "San Lorenzo",
+        "experiencia": "9 años",
+        "telefono": "+595982222222",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=CarlosBenitez",
+        "descripcion": "Trabajos de plomería general y mantenimiento de sistemas de agua.",
+        "servicios": [
+            "Destapes",
+            "Cambios de cañerías",
+            "Reparaciones"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Miguel Rojas",
+        "categoria": "Plomero",
+        "calificacion": 4.6,
+        "opiniones": 74,
+        "ciudad": "Luque",
+        "experiencia": "7 años",
+        "telefono": "+595983333333",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=MiguelRojas",
+        "descripcion": "Profesional dedicado a instalaciones y soluciones rápidas.",
+        "servicios": [
+            "Instalaciones",
+            "Reparaciones",
+            "Emergencias"
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Roberto Acosta",
+        "categoria": "Plomero",
+        "calificacion": 4.8,
+        "opiniones": 102,
+        "ciudad": "Capiatá",
+        "experiencia": "10 años",
+        "telefono": "+595984444444",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=RobertoAcosta",
+        "descripcion": "Especialista en mantenimiento de hogares y comercios.",
+        "servicios": [
+            "Mantenimiento",
+            "Instalaciones",
+            "Reparación"
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "Diego Vera",
+        "categoria": "Plomero",
+        "calificacion": 4.5,
+        "opiniones": 61,
+        "ciudad": "Fernando de la Mora",
+        "experiencia": "6 años",
+        "telefono": "+595985555555",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=DiegoVera",
+        "descripcion": "Servicios de plomería para hogares y oficinas.",
+        "servicios": [
+            "Reparaciones",
+            "Instalaciones"
+        ]
+    },
+
+    {
+        "id": 6,
+        "nombre": "Marcos Duarte",
+        "categoria": "Electricista",
+        "calificacion": 4.9,
+        "opiniones": 143,
+        "ciudad": "Asunción",
+        "experiencia": "15 años",
+        "telefono": "+595986666666",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=MarcosDuarte",
+        "descripcion": "Especialista en instalaciones eléctricas domiciliarias.",
+        "servicios": [
+            "Instalaciones eléctricas",
+            "Tableros",
+            "Revisión eléctrica"
+        ]
+    },
+    {
+        "id": 7,
+        "nombre": "Luis Gómez",
+        "categoria": "Electricista",
+        "calificacion": 4.7,
+        "opiniones": 98,
+        "ciudad": "Lambaré",
+        "experiencia": "11 años",
+        "telefono": "+595987777777",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=LuisGomez",
+        "descripcion": "Electricista certificado con experiencia residencial.",
+        "servicios": [
+            "Instalaciones",
+            "Reparaciones",
+            "Iluminación"
+        ]
+    },
+    {
+        "id": 8,
+        "nombre": "Fernando Ortiz",
+        "categoria": "Electricista",
+        "calificacion": 4.6,
+        "opiniones": 70,
+        "ciudad": "Mariano Roque Alonso",
+        "experiencia": "8 años",
+        "telefono": "+595988888888",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=FernandoOrtiz",
+        "descripcion": "Soluciones eléctricas rápidas y seguras.",
+        "servicios": [
+            "Cableado",
+            "Reparaciones",
+            "Mantenimiento"
+        ]
+    },
+    {
+        "id": 9,
+        "nombre": "Andrés Silva",
+        "categoria": "Electricista",
+        "calificacion": 4.8,
+        "opiniones": 110,
+        "ciudad": "Ñemby",
+        "experiencia": "13 años",
+        "telefono": "+595989999999",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=AndresSilva",
+        "descripcion": "Especialista en electricidad residencial y comercial.",
+        "servicios": [
+            "Instalaciones",
+            "Automatización"
+        ]
+    },
+    {
+        "id": 10,
+        "nombre": "Oscar Ferreira",
+        "categoria": "Electricista",
+        "calificacion": 4.5,
+        "opiniones": 54,
+        "ciudad": "Villa Elisa",
+        "experiencia": "6 años",
+        "telefono": "+595980101010",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=OscarFerreira",
+        "descripcion": "Servicio eléctrico para hogares.",
+        "servicios": [
+            "Revisión",
+            "Mantenimiento"
+        ]
+    },
+    {
+        "id": 11,
+        "nombre": "Martín Cabrera",
+        "categoria": "Pintor",
+        "calificacion": 4.8,
+        "opiniones": 92,
+        "ciudad": "Asunción",
+        "experiencia": "10 años",
+        "telefono": "+595981111222",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=MartinCabrera",
+        "descripcion": "Pintor profesional especializado en interiores, exteriores y acabados modernos.",
+        "servicios": [
+            "Pintura interior",
+            "Pintura exterior",
+            "Restauración"
+        ]
+    },
+    {
+        "id": 12,
+        "nombre": "Jorge Ramírez",
+        "categoria": "Pintor",
+        "calificacion": 4.6,
+        "opiniones": 67,
+        "ciudad": "Luque",
+        "experiencia": "8 años",
+        "telefono": "+595982222333",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=JorgeRamirez",
+        "descripcion": "Especialista en pintura residencial y renovación de ambientes.",
+        "servicios": [
+            "Pintura de casas",
+            "Enduido",
+            "Impermeabilización"
+        ]
+    },
+    {
+        "id": 13,
+        "nombre": "Ricardo Vera",
+        "categoria": "Pintor",
+        "calificacion": 4.9,
+        "opiniones": 134,
+        "ciudad": "San Lorenzo",
+        "experiencia": "14 años",
+        "telefono": "+595983333444",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=RicardoVera",
+        "descripcion": "Profesional con experiencia en grandes proyectos de pintura.",
+        "servicios": [
+            "Pintura comercial",
+            "Diseño de interiores",
+            "Terminaciones"
+        ]
+    },
+    {
+        "id": 14,
+        "nombre": "Emanuel Torres",
+        "categoria": "Pintor",
+        "calificacion": 4.5,
+        "opiniones": 48,
+        "ciudad": "Fernando de la Mora",
+        "experiencia": "5 años",
+        "telefono": "+595984444555",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=EmanuelTorres",
+        "descripcion": "Servicios de pintura para hogares y pequeños negocios.",
+        "servicios": [
+            "Pintura interior",
+            "Reparaciones de paredes"
+        ]
+    },
+
+    {
+        "id": 15,
+        "nombre": "Sebastián Franco",
+        "categoria": "Jardinero",
+        "calificacion": 4.7,
+        "opiniones": 85,
+        "ciudad": "Capiatá",
+        "experiencia": "9 años",
+        "telefono": "+595985555666",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=SebastianFranco",
+        "descripcion": "Especialista en mantenimiento y diseño de jardines.",
+        "servicios": [
+            "Poda",
+            "Diseño de jardines",
+            "Mantenimiento"
+        ]
+    },
+    {
+        "id": 16,
+        "nombre": "Gabriel Martínez",
+        "categoria": "Jardinero",
+        "calificacion": 4.6,
+        "opiniones": 73,
+        "ciudad": "Lambaré",
+        "experiencia": "7 años",
+        "telefono": "+595986666777",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=GabrielMartinez",
+        "descripcion": "Servicios de jardinería para hogares y empresas.",
+        "servicios": [
+            "Cuidado de plantas",
+            "Poda",
+            "Limpieza de jardines"
+        ]
+    },
+    {
+        "id": 17,
+        "nombre": "Nicolás Benítez",
+        "categoria": "Jardinero",
+        "calificacion": 4.8,
+        "opiniones": 101,
+        "ciudad": "Luque",
+        "experiencia": "12 años",
+        "telefono": "+595987777888",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=NicolasBenitez",
+        "descripcion": "Experto en creación y mantenimiento de espacios verdes.",
+        "servicios": [
+            "Paisajismo",
+            "Mantenimiento",
+            "Riego"
+        ]
+    },
+
+    {
+        "id": 18,
+        "nombre": "Héctor Villalba",
+        "categoria": "Carpintero",
+        "calificacion": 4.9,
+        "opiniones": 118,
+        "ciudad": "Asunción",
+        "experiencia": "18 años",
+        "telefono": "+595988888999",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=HectorVillalba",
+        "descripcion": "Carpintero especializado en muebles personalizados.",
+        "servicios": [
+            "Muebles a medida",
+            "Reparaciones",
+            "Diseño en madera"
+        ]
+    },
+    {
+        "id": 19,
+        "nombre": "Pablo Acosta",
+        "categoria": "Carpintero",
+        "calificacion": 4.7,
+        "opiniones": 76,
+        "ciudad": "San Lorenzo",
+        "experiencia": "11 años",
+        "telefono": "+595989999000",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=PabloAcosta",
+        "descripcion": "Fabricación y reparación de muebles de madera.",
+        "servicios": [
+            "Armarios",
+            "Mesas",
+            "Restauración"
+        ]
+    },
+    {
+        "id": 20,
+        "nombre": "Walter Rivas",
+        "categoria": "Carpintero",
+        "calificacion": 4.6,
+        "opiniones": 59,
+        "ciudad": "Ñemby",
+        "experiencia": "8 años",
+        "telefono": "+595980101112",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=WalterRivas",
+        "descripcion": "Trabajos de carpintería residencial y comercial.",
+        "servicios": [
+            "Puertas",
+            "Muebles",
+            "Reparaciones"
+        ]
+    },
+
+    {
+        "id": 21,
+        "nombre": "Raúl González",
+        "categoria": "Técnico en A.A.",
+        "calificacion": 4.8,
+        "opiniones": 97,
+        "ciudad": "Asunción",
+        "experiencia": "13 años",
+        "telefono": "+595981212121",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=RaulGonzalez",
+        "descripcion": "Instalación y mantenimiento de equipos de aire acondicionado.",
+        "servicios": [
+            "Instalación",
+            "Limpieza",
+            "Reparación"
+        ]
+    },
+    {
+        "id": 22,
+        "nombre": "Iván Duarte",
+        "categoria": "Técnico en A.A.",
+        "calificacion": 4.7,
+        "opiniones": 82,
+        "ciudad": "Mariano Roque Alonso",
+        "experiencia": "10 años",
+        "telefono": "+595982323232",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=IvanDuarte",
+        "descripcion": "Especialista en climatización residencial.",
+        "servicios": [
+            "Carga de gas",
+            "Mantenimiento",
+            "Instalación"
+        ]
+    },
+    {
+        "id": 23,
+        "nombre": "Fabián López",
+        "categoria": "Técnico en A.A.",
+        "calificacion": 4.5,
+        "opiniones": 63,
+        "ciudad": "Villa Elisa",
+        "experiencia": "7 años",
+        "telefono": "+595983434343",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=FabianLopez",
+        "descripcion": "Servicio técnico para equipos domésticos y comerciales.",
+        "servicios": [
+            "Diagnóstico",
+            "Reparación",
+            "Mantenimiento"
+        ]
+    },
+    {
+        "id": 24,
+        "nombre": "Diego Fernández",
+        "categoria": "Técnico en A.A.",
+        "calificacion": 4.9,
+        "opiniones": 145,
+        "ciudad": "San Lorenzo",
+        "experiencia": "16 años",
+        "telefono": "+595984545454",
+        "imagen": "https://api.dicebear.com/9.x/personas/svg?seed=DiegoFernandez",
+        "descripcion": "Técnico especializado en climatización y equipos inverter.",
+        "servicios": [
+            "Instalación",
+            "Reparación",
+            "Mantenimiento preventivo"
+        ]
+    }
+]

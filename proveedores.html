@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EmpleatePY | Proveedores</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <header class="encabezado">
+
+        <div class="contenedor">
+
+            <a href="index.html" class="logo">
+                Servi<span>PY</span>
+            </a>
+
+            <nav class="menu">
+
+                <a href="index.html">
+                    Inicio
+                </a>
+
+                <a href="proveedores.html" class="activo">
+                    Proveedores
+                </a>
+
+                <p id="saludo-usuario"></p>
+
+                <a
+                    href="login.html"
+                    id="enlace-login">
+
+                    Iniciar sesión
+
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="titulo-pagina">
+
+            <div class="contenedor">
+
+                <h1>
+                    Encuentra proveedores de confianza
+                </h1>
+
+                <p>
+                    Busca profesionales según su categoría,
+                    calificación o nombre.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="filtros">
+
+            <div class="contenedor">
+
+                <input 
+                    type="search"
+                    id="buscador"
+                    placeholder="Buscar proveedor..."
+                    aria-label="Buscar proveedor">
+
+
+                <select id="filtro-categoria" aria-label="Filtrar por categoría">
+
+                    <option value="todos">
+                        Todas las categorías
+                    </option>
+
+                    <option value="Plomero">
+                        Plomeros
+                    </option>
+
+                    <option value="Electricista">
+                        Electricistas
+                    </option>
+
+                    <option value="Pintor">
+                        Pintores
+                    </option>
+
+                    <option value="Jardinero">
+                        Jardineros
+                    </option>
+
+                    <option value="Carpintero">
+                        Carpinteros
+                    </option>
+
+                </select>
+
+
+                <select id="ordenar-proveedores" aria-label="Ordenar proveedores">
+
+                    <option value="predeterminado">
+                        Ordenar por
+                    </option>
+
+                    <option value="mejor">
+                        Mayor calificación
+                    </option>
+
+                    <option value="menor">
+                        Menor calificación
+                    </option>
+
+                    <option value="az">
+                        Nombre A-Z
+                    </option>
+
+                    <option value="za">
+                        Nombre Z-A
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+
+        <section class="listado-proveedores">
+
+            <div class="contenedor">
+
+
+                <p id="contador-proveedores">
+
+                    0 proveedores encontrados
+
+                </p>
+
+
+                <div id="estado">
+
+                </div>
+
+
+                <div 
+                    id="contenedor-proveedores"
+                    class="contenedor-proveedores">
+
+                    <!-- 
+                        Aquí JavaScript insertará
+                        las tarjetas generadas desde JSON
+                    -->
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer class="pie-pagina">
+
+        <div class="contenedor">
+
+            <h3>
+                Servi<span>PY</span>
+            </h3>
+
+            <p>
+                EmpleatePY conecta usuarios con proveedores
+                de servicios locales.
+            </p>
+        </div>
+
+    </footer>
+
+
+    <script src="js/proveedores.js"></script>
+    <script src="js/sesion.js"></script>
+
+</body>
+
+</html>

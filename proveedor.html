@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EmpleatePY | Perfil del proveedor</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+
+    <header class="encabezado">
+
+        <div class="contenedor">
+
+            <a href="index.html" class="logo">
+                Servi<span>PY</span>
+            </a>
+
+
+            <nav class="menu">
+
+                <a href="index.html">
+                    Inicio
+                </a>
+
+                <a href="proveedores.html">
+                    Proveedores
+                </a>
+
+                <p id="saludo-usuario"></p>
+
+                <a
+                    href="login.html"
+                    id="enlace-login">
+
+                    Iniciar sesión
+
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+        <section class="perfil">
+
+            <div class="contenedor">
+
+
+                <div id="estado">
+
+                    Cargando información del proveedor...
+
+                </div>
+
+
+
+                <article 
+                    id="perfil-proveedor"
+                    class="tarjeta-perfil"
+                    hidden>
+
+
+                    <div class="imagen-perfil">
+
+                        <img 
+                            id="imagen-proveedor"
+                            src=""
+                            alt="Imagen del proveedor">
+
+
+                    </div>
+
+
+
+                    <div class="informacion-perfil">
+
+
+                        <h1 id="nombre-proveedor">
+
+                        </h1>
+
+
+
+                        <p id="categoria-proveedor">
+
+                        </p>
+
+
+
+                        <p id="calificacion-proveedor">
+
+                        </p>
+
+
+
+                        <p id="ciudad-proveedor">
+
+                        </p>
+
+
+
+                        <p id="experiencia-proveedor">
+
+                        </p>
+
+
+
+                        <p id="descripcion-proveedor">
+
+                        </p>
+
+
+
+                        <section class="servicios">
+
+
+                            <h2>
+                                Servicios ofrecidos
+                            </h2>
+
+
+                            <ul id="lista-servicios">
+
+                            </ul>
+
+
+                        </section>
+
+
+
+                        <div class="acciones">
+
+
+                            <a 
+                                id="telefono-proveedor"
+                                class="boton-principal">
+
+                                📞 Llamar
+
+                            </a>
+
+
+
+                            <a 
+                                href="proveedores.html"
+                                class="boton-secundario">
+
+                                ← Volver
+
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <footer class="pie-pagina">
+
+        <div class="contenedor">
+
+            <h3>
+                Servi<span>PY</span>
+            </h3>
+
+
+            <p>
+                Encuentra profesionales confiables
+                para tus servicios.
+            </p>
+
+            <p>
+                © 2026
+            </p>
+
+
+        </div>
+
+
+    </footer>
+
+
+
+    <script src="js/proveedor.js"></script>
+    <script src="js/sesion.js"></script>
+
+
+</body>
+
+</html>

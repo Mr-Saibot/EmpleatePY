@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EmpleatePY | Encuentra proveedores de confianza</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- NUEVO: skip link para navegación por teclado -->
+    <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- ========================= -->
+    <!-- ENCABEZADO -->
+    <!-- ========================= -->
+
+    <header class="encabezado">
+
+        <div class="contenedor">
+
+            <a href="index.html" class="logo">
+                Empleate<span>PY</span>
+            </a>
+
+            <nav class="menu" aria-label="Navegación principal">
+
+                <a href="index.html" class="activo">
+                    Inicio
+                </a>
+
+                <a href="proveedores.html">
+                    Proveedores
+                </a>
+
+                <p id="saludo-usuario"></p>
+
+                <a
+                    href="login.html"
+                    id="enlace-login">
+
+                    Iniciar sesión
+
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main id="contenido">
+
+        <!-- ========================= -->
+        <!-- HERO -->
+        <!-- ========================= -->
+
+        <section class="hero">
+
+            <div class="contenedor hero-contenido">
+
+                <div class="hero-texto">
+
+                    <span class="etiqueta">
+                        Plataforma de servicios locales
+                    </span>
+
+                    <h1>
+                        Encuentra proveedores de confianza para tu hogar.
+                    </h1>
+
+                    <p>
+                        EmpleatePY te ayuda a encontrar plomeros, electricistas, pintores,
+                        jardineros y otros profesionales calificados de forma rápida,
+                        sencilla y segura.
+                    </p>
+
+                    <div class="hero-botones">
+
+                        <a href="proveedores.html" class="boton-principal">
+                            Buscar proveedores
+                        </a>
+
+                        <a href="login.html" class="boton-secundario">
+                            Iniciar sesión
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-imagen">
+
+                    <img src="img/proveedor-destacado.png"
+                        alt="Personas contratando proveedores">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- NUEVO: FRANJA DE CONFIANZA -->
+        <!-- ========================= -->
+
+        <section class="franja-confianza" aria-label="Estadísticas de la plataforma">
+
+            <div class="contenedor grid-confianza">
+
+                <div class="dato-confianza">
+                    <span class="dato-numero">500+</span>
+                    <span class="dato-texto">Proveedores activos</span>
+                </div>
+
+                <div class="dato-confianza">
+                    <span class="dato-numero">4.7★</span>
+                    <span class="dato-texto">Calificación promedio</span>
+                </div>
+
+                <div class="dato-confianza">
+                    <span class="dato-numero">12</span>
+                    <span class="dato-texto">Categorías de servicio</span>
+                </div>
+
+                <div class="dato-confianza">
+                    <span class="dato-numero">&lt; 24h</span>
+                    <span class="dato-texto">Tiempo de respuesta</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- NUEVO: CÓMO FUNCIONA -->
+        <!-- ========================= -->
+
+        <section class="como-funciona">
+
+            <div class="contenedor">
+
+                <h2>¿Cómo funciona?</h2>
+                <p class="subtitulo">Tres pasos y listo, sin vueltas.</p>
+
+                <ol class="lista-pasos">
+
+                    <li class="paso">
+                        <span class="paso-numero">1</span>
+                        <h3>Buscá la categoría</h3>
+                        <p>Elegí el tipo de servicio que necesitás, desde plomería hasta jardinería.</p>
+                    </li>
+
+                    <li class="paso">
+                        <span class="paso-numero">2</span>
+                        <h3>Compará proveedores</h3>
+                        <p>Mirá calificaciones reales de otros usuarios antes de decidir.</p>
+                    </li>
+
+                    <li class="paso">
+                        <span class="paso-numero">3</span>
+                        <h3>Contactá directo</h3>
+                        <p>Llamá o escribí al proveedor sin intermediarios ni esperas.</p>
+                    </li>
+
+                </ol>
+
+            </div>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- CATEGORÍAS -->
+        <!-- ========================= -->
+
+        <section class="categorias">
+
+            <div class="contenedor">
+
+                <h2>
+                    Categorías disponibles
+                </h2>
+
+                <p class="subtitulo">
+                    Encuentra profesionales para diferentes tipos de servicios.
+                </p>
+
+                <div class="contenedor-categorias">
+
+                    <article class="tarjeta-categoria">
+
+                        <!-- NUEVO: insignia en la categoría más buscada -->
+                        <span class="insignia-popular">Más buscado</span>
+
+                        <div class="icono">
+                            🔧
+                        </div>
+
+                        <h3>Plomeros</h3>
+
+                        <p>
+                            Reparaciones, instalaciones y mantenimiento.
+                        </p>
+
+                    </article>
+
+                    <article class="tarjeta-categoria">
+
+                        <div class="icono">
+                            ⚡
+                        </div>
+
+                        <h3>Electricistas</h3>
+
+                        <p>
+                            Instalaciones eléctricas y emergencias.
+                        </p>
+
+                    </article>
+
+                    <article class="tarjeta-categoria">
+
+                        <div class="icono">
+                            🎨
+                        </div>
+
+                        <h3>Pintores</h3>
+
+                        <p>
+                            Pintura residencial y comercial.
+                        </p>
+
+                    </article>
+
+                    <article class="tarjeta-categoria">
+
+                        <div class="icono">
+                            🌿
+                        </div>
+
+                        <h3>Jardineros</h3>
+
+                        <p>
+                            Diseño y mantenimiento de jardines.
+                        </p>
+
+                    </article>
+
+                    <article class="tarjeta-categoria">
+
+                        <div class="icono">
+                            🪚
+                        </div>
+
+                        <h3>Carpinteros</h3>
+
+                        <p>
+                            Fabricación y reparación de muebles.
+                        </p>
+
+                    </article>
+
+                    <article class="tarjeta-categoria">
+
+                        <div class="icono">
+                            ❄️
+                        </div>
+
+                        <h3>Técnicos en A.A.</h3>
+
+                        <p>
+                            Instalación y mantenimiento de aire acondicionado.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- NUEVO: PROVEEDOR DESTACADO -->
+        <!-- (rompe el patrón de grillas repetidas) -->
+        <!-- ========================= -->
+
+        <section class="proveedor-destacado">
+
+            <div class="contenedor">
+
+                <div class="titulo-seccion">
+
+                    <h2>Proveedor destacado</h2>
+
+                    <p>El profesional mejor calificado por nuestros usuarios.</p>
+
+                </div>
+
+                <div id="proveedor-destacado">
+
+                    <p>Cargando proveedor destacado...</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- BENEFICIOS -->
+
+        <section class="beneficios">
+
+            <div class="contenedor">
+
+                <h2>
+                    ¿Por qué elegir EmpleatePY?
+                </h2>
+
+                <div class="contenedor-beneficios">
+
+                    <article class="beneficio">
+
+                        <span class="beneficio-icono" aria-hidden="true">⭐</span>
+                        <h3>Calificaciones reales</h3>
+
+                        <p>
+                            Consulta las opiniones de otros usuarios antes de contratar.
+                        </p>
+
+                    </article>
+
+                    <article class="beneficio">
+
+                        <span class="beneficio-icono" aria-hidden="true">📞</span>
+                        <h3>Contacto rápido</h3>
+
+                        <p>
+                            Comunícate directamente con el proveedor mediante llamada.
+                        </p>
+
+                    </article>
+
+                    <article class="beneficio">
+
+                        <span class="beneficio-icono" aria-hidden="true">🛠</span>
+                        <h3>Profesionales confiables</h3>
+
+                        <p>
+                            Explora perfiles con experiencia, descripción y servicios.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- NUEVO: TESTIMONIO -->
+
+        <section class="testimonio">
+
+            <div class="contenedor testimonio-caja">
+
+                <blockquote>
+                    "Encontré un plomero en 10 minutos y llegó el mismo día.
+                    Después de años de citas fantasma, no lo podía creer."
+                </blockquote>
+
+                <p class="testimonio-autor">— Lucía Ortiz, usuaria de EmpleatePY</p>
+
+            </div>
+
+        </section>
+
+        <!-- LLAMADO A LA ACCIÓN -->
+
+        <section class="cta">
+
+            <div class="contenedor">
+
+                <h2>
+                    ¿Listo para encontrar al profesional ideal?
+                </h2>
+
+                <p>
+                    Explora nuestro catálogo de proveedores y encuentra el servicio
+                    que necesitas en pocos minutos.
+                </p>
+
+                <a href="proveedores.html" class="boton-principal">
+                    Ver proveedores
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer class="pie-pagina">
+
+        <div class="contenedor">
+
+            <div>
+
+                <h3>
+                    Servi<span>PY</span>
+                </h3>
+
+                <p>
+                    Plataforma para encontrar proveedores de servicios en Paraguay.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h4>Enlaces</h4>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="proveedores.html">
+                            Proveedores
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="login.html">
+                            Iniciar sesión
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            <p>
+                © 2026 EmpleatePY 
+            </p>
+
+        </div>
+
+    </footer>
+    <script src="js/sesion.js"></script>
+    <script src="js/inicio.js"></script>
+
+</body>
+
+</html>
