@@ -14,7 +14,7 @@ if (sesionIniciada === "true") {
 
     if (saludoUsuario) {
 
-        saludoUsuario.textContent = `Hola, ${nombreUsuariosuario} 👋`;
+        saludoUsuario.textContent = `Hola, ${nombreUsuario} 👋`;
 
     }
 
